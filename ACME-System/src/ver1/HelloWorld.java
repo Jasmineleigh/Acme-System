@@ -10,4 +10,10 @@ public class HelloWorld {
 		System.out.println(Msg);
 
 	}
+	
+	public static void whatFor(String arg) {
+		String Msg = "what for?";
+		System.out.println(arg + "." + Msg);
+
+	}
 }
